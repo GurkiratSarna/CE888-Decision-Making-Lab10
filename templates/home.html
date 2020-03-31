@@ -37,7 +37,7 @@ div {
 
 
 <body>
-<center><h1><font color="white">Presence of Heart Disease</h1></center>
+<center><h1><font color="white">Presence of Heart Disease Prediction</h1></center>
 <h2>     </h2>
 
 <div align="center" style="margin-right: 30%;
@@ -49,13 +49,13 @@ div {
     <input type="number" id="age" name="age" placeholder="Age in years" step="0.1" required size="35">
 
     <label for="sex"></label>
-    <input type="number" id="sex" name="sex" placeholder="Sex (1 = male; 0 = female)" step="0.1" required size="35">
+    <input type="number" id="sex" name="sex" placeholder="Sex (1 = male; 0 = female)" min="0" max="1" required size="35">
 
     <label for="cp"></label>
-    <input type="number" id="cp" name="cp" placeholder="Chest pain type Age (from 0 until 3)" min="0" max="3" size="35" required>
+    <input type="number" id="cp" name="cp" placeholder="Chest pain type (from 0 until 3)" min="0" max="3" size="35" required>
 
     <label for="trestbps"></label>
-    <input type="number" id="trestbps" name="trestbps" placeholder="Resting blood pressure (in mm Hg on admission to the hospital)" step="0.1" required>
+    <input type="number" id="trestbps" name="trestbps" placeholder="Resting blood pressure (in mm Hg on admission to the hospital)" required>
 
     <label for="chol"></label>
     <input type="number" id="chol" name="chol" placeholder="Serum cholestoral in mg/dl" size="35" required>
@@ -91,7 +91,7 @@ div {
   </select>
 
 
-    <input type="submit" value="Predict">
+    <input type="submit" style="font-size: larger; color: red; background-color: blue; font-weight: 700 " value=" Predict Disease ">
   </form>
 </form>
 
