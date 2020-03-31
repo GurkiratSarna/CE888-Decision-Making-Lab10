@@ -1,4 +1,3 @@
-hi
-Procfile -It is heroku applicatin, it is a web based application
-.ideea - cache file by pycharm
-venv - from loacal to github, you do not run anythin on the computer.
+Procfile -It tells the system that it is a heroku application (a web based application).
+
+.idea - cache file created by pycharm.
