@@ -1,9 +1,10 @@
 from flask import Flask, request, render_template
-import os
+#import os
 import pickle
+from sklearn.externals import joblib
 
-print(os.getcwd())
-path = os.getcwd()
+#print(os.getcwd())
+#path = os.getcwd()
 
 with open('Models/logistic_model.pkl', 'rb') as f:
     logistic = pickle.load(f)
